@@ -1,0 +1,1 @@
+docker run --rm -d --name prowhookagent -p 8866:8866 prow-hookagent:1.0.0 --hookAgent-config=./config/hookAgentConfig.yaml  --gitee-token-path=./config/gitee_token --hmac-secret-file=./config/hook_secret --dry-run=false --port=8866
