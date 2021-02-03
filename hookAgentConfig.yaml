@@ -1,0 +1,10 @@
+scripts:
+  - name: review_tool
+    process: /usr/bin/prow_review_tool.py
+    endpoint:
+    #process: /usr/bin/python3
+    #endpoint: /usr/pythonPro/openEuler-Advisor/prow/prow_review_tool.py
+    pplname: "-p"
+    ppltype: "-t"
+    repos:
+      - openeuler/openEuler-Advisor
