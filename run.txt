@@ -5,4 +5,3 @@ docker run --rm -d --name prowhookagent -p 8866:8866 prow-hookagent:1.0.0 --hook
 https://test-clasign.osinfra.cn/sign/Z2l0ZWUlMkZjbGEtdGVzdCUyRnRlc3Qx
 
 
-docker login -u ap-southeast-1@HT6G6AMR4OBCPAB6LNPU -p 91ee1a21dab3bcad0d7358ad0e9c19bebbaf88eeace5ea76411798bd7c0edbbc swr.ap-southeast-1.myhuaweicloud.com
