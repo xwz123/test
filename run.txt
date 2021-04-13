@@ -7,13 +7,3 @@ https://test-clasign.osinfra.cn/sign/Z2l0ZWUlMkZjbGEtdGVzdCUyRnRlc3Qx
 
 docker login -u ap-southeast-1@HT6G6AMR4OBCPAB6LNPU -p 91ee1a21dab3bcad0d7358ad0e9c19bebbaf88eeace5ea76411798bd7c0edbbc swr.ap-southeast-1.myhuaweicloud.com
 
-工作情况：
-   1. 完成Prow 对OpenGauss现用CI-BOT功能迁移相关插件的开发与测试
-   2. 编写bazel基础镜像，以及prow各组件的dockerfile，协助完成dockerfile版prow 流水线的部署。并在yabot上编写脚本实现使用bazel直接构建各组件镜像并push镜像到swr,以简化流水线构建脚本的复杂度。
-  3. 完成包括但不限于job-reporter显示CI任务状态标签,cla多commit签署检测，特定文件夹修改需特定人员review等需求的研究与实现。
-  4. 完成yabot approve、lgtm、assign、associate插件的迁移与测试。
-学习情况：
-  1. 完成对bazel的系统学习与实践。
-  2. 完成对Travis CI 的学习与简单实践。
-不足：
-   提升对需求功能实现细节的思考，提高代码质量，减少代码review暴露的问题。
