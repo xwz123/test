@@ -15,5 +15,5 @@ func (d Dog) Run() {
 }
 
 func (d Dog) Eate() {
-	fmt.Fprintln("eate dog")
+	fmt.Println("eate dog")
 }
