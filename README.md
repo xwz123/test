@@ -8,5 +8,5 @@
 | 自动添加sig/*标签                             | issue或PR创建时会根据仓库所属的sig组自动添加对应的sig标签    | 需开发 |
 | 检查PR是否设置Reviewer                        | PR创建时，或检测PR创建者是否设置reviewer，未创建给出提示     | 需开发 |
 | lgtm/approve/merge                            | merge支持设置分支冻结，冻结的分支PR不能自动合入，只有冻结配置特定用户有权限合入<br />/approve [cancel]指令的使用权限不再针对类似community这种特殊仓下sigs组中的maintainer做判断 | 需开发 |
-| watch special file change and do some options | ![image-20211123145917446](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20211123145917446.png) | 待讨论 |
+| watch special file change and do some options | [code-line](https://gitee.com/openeuler/ci-bot/blob/master/pkg/cibot/pullrequest.go#L194) | 待讨论 |
 
